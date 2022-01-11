@@ -21,7 +21,6 @@ body{
 /* ------------------------------- Heading */
 #heading{
     height: 20vh;
-    background-color: blue; /*remove this before final commit*/
     font-size: 120%;
     width: 100%;
   }
@@ -39,29 +38,25 @@ p{
 /* ---------------------------------- Home */
 #main-container{
     height: 100vh;
-    background-color: greenyellow; /*remove this before final commit*/
     width: 100%;   
 }
 
 #welcome-message-container {
     height: 80vh;
-    background-color: blueviolet; /*remove this before final commit*/
 }
 
 #message{
     width: 70%;
     height: 100%;
-    background-color: green; /*remove this before final commit*/
 }
 
 #welcome-text {
-    line-height: 3em;
+    line-height: 2.5em;
 }
 
 #background-img-container {
     width: 30%;
     height: 100%;
-    /*background-color: red; *//*remove this before final commit*/
     background-image:url("/assets/images/background.jpg");
     background-repeat: no-repeat;
     background-size: contain;
