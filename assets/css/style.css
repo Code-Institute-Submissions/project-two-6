@@ -14,17 +14,26 @@ body{
     font-family: Chilanka;
 }
 
+.text-center{
+    text-align: center; 
+  }
+
 /* ------------------------------- Heading */
 #heading{
     height: 20vh;
     background-color: blue; /*remove this before final commit*/
-    line-height: 120px;
-    text-align: center;
+    font-size: 120%;
     width: 100%;
   }
 
 h1, p {
-    color: rgb(207, 212, 216);
+    color: #ff5e00;
+    padding: 1em;
+}
+
+p{
+    font-size: 130%;
+    color: #f0ede1;
 }
 
 /* ---------------------------------- Home */
@@ -45,10 +54,14 @@ h1, p {
     background-color: green; /*remove this before final commit*/
 }
 
+#welcome-text {
+    line-height: 3em;
+}
+
 #background-img-container {
     width: 30%;
     height: 100%;
-    background-color: red; /*remove this before final commit*/
+    /*background-color: red; *//*remove this before final commit*/
     background-image:url("/assets/images/background.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -57,4 +70,17 @@ h1, p {
 
 .float {
     float:left;
+}
+
+.buttons {
+    width: 30%;
+    color:#f0ede1;
+    font-size: 120%;
+    border-radius: 5px;
+    background:#ff5e00;
+    margin: auto;
+    margin-top: 1%;
+    padding: 5px;
+    border: 3px solid #3b3c3d;
+    box-shadow: 0 0 5px 4px;
 }
