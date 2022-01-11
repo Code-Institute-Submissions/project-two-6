@@ -27,3 +27,34 @@ h1, p {
     color: rgb(207, 212, 216);
 }
 
+/* ---------------------------------- Home */
+#main-container{
+    height: 100vh;
+    background-color: greenyellow; /*remove this before final commit*/
+    width: 100%;   
+}
+
+#welcome-message-container {
+    height: 80vh;
+    background-color: blueviolet; /*remove this before final commit*/
+}
+
+#message{
+    width: 70%;
+    height: 100%;
+    background-color: green; /*remove this before final commit*/
+}
+
+#background-img-container {
+    width: 30%;
+    height: 100%;
+    background-color: red; /*remove this before final commit*/
+    background-image:url("/assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+.float {
+    float:left;
+}
