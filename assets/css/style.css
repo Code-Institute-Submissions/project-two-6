@@ -13,3 +13,17 @@ body{
     background:black;
     font-family: Chilanka;
 }
+
+/* ------------------------------- Heading */
+#heading{
+    height: 20vh;
+    background-color: blue; /*remove this before final commit*/
+    line-height: 120px;
+    text-align: center;
+    width: 100%;
+  }
+
+h1, p {
+    color: rgb(207, 212, 216);
+}
+
