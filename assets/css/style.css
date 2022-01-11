@@ -1,0 +1,15 @@
+/* -------------------------- Global style */
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Roboto:wght@400;700&display=swap');
+
+/*Remove default auto margin and auto padding*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:black;
+    font-family: Chilanka;
+}
