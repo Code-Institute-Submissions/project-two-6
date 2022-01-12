@@ -19,8 +19,12 @@ let questions = [{
     correct : "optionC"
 }];
 
-//Declare variables to keep truck of current question
+//Declare variables
+//to keep track of current question
 let currentQuestion = 0;
+
+//to calculate total number of questions
+let lastQuestion = questions.length - 1;
 
 //Get the start button element and add event listener to it
 let startButton = document.getElementById("start-button");
@@ -71,6 +75,10 @@ function checkAnswer(userAnswer){
         alert("This is Incorrect :-( !" );
     }
     
-    currentQuestion++;
-    displayQuestion();
+    if(currentQuestion < lastQuestion) {
+        currentQuestion++;
+        displayQuestion();
+    } else {
+        alert("end of game");
+    }
 }
