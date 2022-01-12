@@ -119,3 +119,35 @@ p{
     width: 100%;
     height: 100%;
 }
+
+/* answer box */
+.answer{
+    width: 50%;
+    height: 90%;
+    margin-top: 1%;
+    background:#f0ede1;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.float {
+    float:left;
+}
+
+/* score area */
+#score {
+    height: 15%;
+    padding-top: 5%;
+    font-size: 120%;
+}
+
+#user-score{
+    color: #ff5e00;
+}
+
+/* instruction area */
+#instructions {
+    height: 15%;
+    padding-top: 5%;
+    font-size: 90%;
+}
