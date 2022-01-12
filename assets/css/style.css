@@ -79,3 +79,16 @@ p{
     border: 3px solid #3b3c3d;
     box-shadow: 0 0 5px 4px;
 }
+
+/* --------------------------- Game layout */
+/*Learned and adopted some of the code from Coding Ninjas(https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/?amp=1) tutorial*/
+#quiz-container {
+    margin: auto;
+    margin-top: 10%;
+    width: 50vw;
+    height: 60vh;
+    background: #095170;
+    border: 5px solid #ff5e00;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 4px; 
+}
