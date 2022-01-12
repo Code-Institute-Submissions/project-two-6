@@ -1,7 +1,7 @@
-[Link to the live project](https://ip69719.github.io/MS2/)
+[Link to the live project](https://ip69719.github.io/MS2/) - UPDATE THIS
 
 # Welcome to my Car Logos learning game!
-The primary Project Goal is to create a simple car logos learning game.
+The primary Project Goal is to create a simple car logos learning game that is suitable for young children.
 
 
 ## User Experience (UX)
@@ -60,8 +60,8 @@ The primary Project Goal is to create a simple car logos learning game.
 
 ### Frameworks, Libraries & Programs Used
 
-* [Git](https://git-scm.com/)
-  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* Git:
+  [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 * GitHub:
   [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
