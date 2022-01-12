@@ -18,3 +18,8 @@ let questions = [{
     optionC : "Toyota",
     correct : "optionC"
 }];
+
+
+//Get the start button element add event listener to it
+let startButton = document.getElementById("start-button");
+startButton.addEventListener("click", startGame);
