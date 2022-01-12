@@ -79,12 +79,12 @@ The primary Project Goal is to create a simple car logos learning game.
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/MS2)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/project-two)
 1. In the menu located at the top of this section, click 'Settings'.
 1. Scroll down the Settings page until you locate the "GitHub Pages" Section and click on the link provided.
-1. Under "Source", click the dropdown and select "main" Branch and "/root" folder and save.
+1. Under "Source", click the dropdown and select "main" Branch and "/root" folder and then save.
 1. The page is then given a site URL which you will see above the source section.
 
 
@@ -92,19 +92,19 @@ The project was deployed to GitHub Pages using the following steps...
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/my-first-project)
-1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/project-two)
+1. In the top right corner of the page, click the Fork button 
 1. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/my-first-project)
-1. Under the repository name, click "Clone or download".
-1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/project-two)
+1. Click "Code" botton (beside the green Gitpod botton).
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link that is shown in the drop-down.
 1. Open Git Bash
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/ip69719/MS-Project-1-v-3.git - UPDATE THIS!
 1. Press Enter. Your local clone will be created.
 
 ## Credits
