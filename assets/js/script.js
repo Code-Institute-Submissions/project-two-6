@@ -25,8 +25,8 @@ let startButton = document.getElementById("start-button");
 startButton.addEventListener("click", startGame);
 
 /**
- * Called when start button is clicked, hides the home content of thepade
- * and takes user to game area
+ * Called when start button is clicked, hides the home content of the page,
+ * takes user to game area and renders first question
  */
 function startGame(){
 let homeBlock = document.getElementById("main-container");
