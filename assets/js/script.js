@@ -19,6 +19,8 @@ let questions = [{
     correct : "optionC"
 }];
 
+//Declare variables to keep truck of current question
+let currentQuestion = 0;
 
 //Get the start button element and add event listener to it
 let startButton = document.getElementById("start-button");
@@ -34,9 +36,6 @@ let homeBlock = document.getElementById("main-container");
     let quizContainer = document.getElementById("quiz-container");
     quizContainer.style.display = 'block';
 }
-
-//Declare variables to keep truck of current question
-let currentQuestion = 0;
 
 /**
  * Function to render question, called after user is taken to game area
@@ -58,3 +57,20 @@ function displayQuestion() {
 }
 
 displayQuestion()
+
+/**
+ * Function to check user answer against the correct answer and
+ * displays the next question.
+ * Called when user clicks on the answer box option
+ */
+function checkAnswer(userAnswer){
+
+    if (userAnswer == questions[currentQuestion].correct) {
+        alert("That is Correct Answer! Well Done!");
+    } else {
+        alert("This is Incorrect :-( !" );
+    }
+    
+    currentQuestion++;
+    displayQuestion();
+}
