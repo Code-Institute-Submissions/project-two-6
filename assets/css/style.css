@@ -92,3 +92,30 @@ p{
     border-radius: 50px;
     box-shadow: 0 0 5px 4px; 
 }
+
+/* header/question */
+.header{
+    color:#f0ede1;
+    text-align: center;
+    font-size: 150%;
+    padding: 10px;
+    height: 10%;
+}
+
+.question-area{
+    margin:auto;
+    width: 90%;
+    height: 80%;
+}
+
+/* quiz image */
+#question-img{
+    width: 50%;
+    height: 80%;
+    margin-top: 5%;
+}
+
+#question-img img{
+    width: 100%;
+    height: 100%;
+}
