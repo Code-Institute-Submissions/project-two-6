@@ -111,11 +111,11 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Content
 
-* Content of READ.md was written with reference to [Example README.md template](https://github.com/Code-Institute-Solutions/SampleREADME). Deployment section was copied from the template.
+* Content of READ.md was written with reference to [Example README.md template](https://github.com/Code-Institute-Solutions/SampleREADME).
 
 ### Media
 
-* Free image was sourced from [Pixabay](https://pixabay.com/) and [StickPNG](https://www.stickpng.com/)
+* Images was sourced from [Pixabay](https://pixabay.com/), [StickPNG](https://www.stickpng.com/) and [Shutterstock](https://www.shutterstock.com/home)
 
 ### Code
 
