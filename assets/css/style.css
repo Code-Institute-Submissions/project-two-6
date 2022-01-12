@@ -151,3 +151,26 @@ p{
     padding-top: 5%;
     font-size: 90%;
 }
+
+/* alternative answers boxes */
+.answer-options {
+    height: 75%;
+}
+
+.option {
+    background:#ff5e00;
+    border: 3px solid #3b3c3d;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 4px;
+    color:#f0ede1;
+    font-size: 120%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 5px;
+    width: 60%;
+    text-align: center;
+}
+
+.option:hover{
+    background: black;
+}
