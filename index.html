@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Start of the home block -->
-    <div id="main-container"> 
+    <div id="main-container" style = "display: none;">  <!--Remove style after game area is complete-->
         <div class="text-center" id="heading">
             <h1>Welcome to Gabriel's Car Logos Learning Game!</h1>
         </div>
@@ -29,6 +29,28 @@
         </div>
     </div>
     <!-- End of the home block -->
+
+    <!-- Start of the game block -->
+    <div id="quiz-container"> 
+        <div class="header">
+            <h2>What car company logo is this?</h2>
+        </div>
+        <div class="question-area">
+            <div class="float" id="question-img"></div>
+            <div class="float answer">
+                <div id="score">Score: <span id="user-score"></span> / <span id="total-questions"></span></div>
+                <div id="instructions">Click one of the buttons to select your answer.</div>
+                <div class="answer-options">
+                    <!--learned about HTML onclick Event Attribute from w3schools (https://www.w3schools.com/tags/ev_onclick.asp tutorial)-->
+                    <div class="option" id="optionA" onclick="checkAnswer('optionA')"></div> 
+                    <div class="option" id="optionB" onclick="checkAnswer('optionB')"></div>
+                    <div class="option" id="optionC" onclick="checkAnswer('optionC')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of the game block -->
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
