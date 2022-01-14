@@ -22,7 +22,25 @@
                         How many car logos do you know? Let's find out!<br>
                         Click "Show Instructions" to read about how to play or<br>click "Start" when you are ready to go!</p>
                 </div>
-                <div class="buttons text-center">Show Instructions</div>
+                <div class="buttons text-center" id="show-modal">Show Instructions</div>
+                <!--modal window to display instructions-->
+                <div class="modal-window" id="modal" style = "display: none;">
+                    <button class="close-modal">x</button>
+                    <h2 class="text-center">How to play</h2>
+                        <ol>
+                            <li>Click Start to begin the game.</li>
+                            <li>For each question you will see a car logo displayed on the left-hand side.</li>
+                            <li>Have a look at the logo and quess what car brand is this logo for.</li>
+                            <li>Choose your answer by clicking on one of the three buttons on the right-hand side.</li>
+                            <li>A message will pop up to let you know if the answer is correct or not.</li>
+                            <li>Your score will be updated and the next question will come up.</li>
+                            <li>Don't worry if you don't get the right answer from the first time!</li>
+                            <li>You can try again by clicking Restart button at the end of the game.</li>
+                            <li>Click on X in the top-right corner of this message to return to the main page.</li>
+                            <li>Have fun!</li>
+                        </ol>
+                </div>
+                <div class="overlay" id="overlay" style = "display: none;"></div>
                 <div class="buttons text-center" id="start-button">Start</div>
             </div>
             <div class="float" id="background-img-container"></div>
