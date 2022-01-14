@@ -125,6 +125,8 @@ $ git clone https://github.com/ip69719/MS-Project-1-v-3.git - UPDATE THIS!
 
 * Learned how to display two divs side by side from [coder coder!](https://coder-coder.com/display-divs-side-by-side/).
 
+* Learned how to create a Modal Box with CSS and JavaScript and adopted code from [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
+
 ### Acknowledgements
 
 * Special thanks to Code Institute for exellent leaning materials.
