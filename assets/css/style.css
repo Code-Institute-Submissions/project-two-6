@@ -213,3 +213,16 @@ p{
     backdrop-filter: blur(3px);
     z-index: 5;
   }
+
+#modal-header {
+    color:#ff5e00;
+}
+
+ol {
+    list-style: none;
+  }
+
+li {
+    color: #f0ede1;
+    padding-left: 10%;
+}
