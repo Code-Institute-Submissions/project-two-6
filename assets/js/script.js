@@ -113,9 +113,11 @@ function displayQuestion() {
 function checkAnswer(userAnswer){
 
     if (userAnswer == questions[currentQuestion].correct) {
-        alert("That is Correct Answer! Well Done!");
+        //alert("That is Correct Answer! Well Done!");
+        swal("Good job!", "That is Correct Answer!", "success");
     } else {
-        alert("This is Incorrect :-( !" );
+        //alert("This is Incorrect :-( !" );
+        swal("Oops!", "That is Incorrect :-( !", "error");
     }
     
     if(currentQuestion < lastQuestion) {
