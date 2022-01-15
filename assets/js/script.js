@@ -20,6 +20,7 @@ let questions = [{
 }];
 
 //Declare variables
+
 //to keep track of current question
 let currentQuestion = 0;
 
@@ -30,12 +31,40 @@ let lastQuestion = questions.length - 1;
 let startButton = document.getElementById("start-button");
 startButton.addEventListener("click", startGame);
 
+//Get the show instructions element
+let openModal = document.getElementById("show-modal");
+
+//Get the close instructions button element
+let closeModal = document.getElementsByClassName("close-modal")[0];
+
+//Get the modal
+let modalWindow = document.getElementById("modal");
+
+//Get the overlay
+let overlay = document.getElementById("overlay");
+
+/**
+ * Opens the modal with game instructions when show instructions is clicked
+ */
+openModal.onclick = function() {
+    overlay.style.display = 'block';
+    modalWindow.style.display = 'block';
+}
+
+/**
+ * Closes the modal with game instructions when x is clicked
+ */
+closeModal.onclick = function() {
+    modalWindow.style.display = 'none';
+    overlay.style.display = 'none';
+}
+
 /**
  * Called when start button is clicked, hides the home content of the page,
  * takes user to game area
  */
 function startGame(){
-let homeBlock = document.getElementById("main-container");
+    let homeBlock = document.getElementById("main-container");
     homeBlock.style.display = 'none';
     let quizContainer = document.getElementById("quiz-container");
     quizContainer.style.display = 'block';
