@@ -77,12 +77,11 @@ function startGame(){
  * learned and adopted the code from this post
  * https://stackoverflow.com/questions/42010723/creating-div-element-with-a-for-loop
  */
-
 function displayProgress() {
     let progress = document.getElementById("progress");
     for(let i = 0; i <= lastQuestion; i++) {
         console.log("This is progress");
-        progress.innerHTML += '<div class="progress"></div>';
+        progress.innerHTML += '<div class="progress" id='+ i +'></div>';
     }
 }
 
@@ -115,9 +114,11 @@ function checkAnswer(userAnswer){
     if (userAnswer == questions[currentQuestion].correct) {
         //alert("That is Correct Answer! Well Done!");
         swal("Good job!", "That is Correct Answer!", "success");
+        answerCorrect();
     } else {
         //alert("This is Incorrect :-( !" );
         swal("Oops!", "That is Incorrect :-( !", "error");
+        answerWrong();
     }
     
     if(currentQuestion < lastQuestion) {
@@ -126,4 +127,18 @@ function checkAnswer(userAnswer){
     } else {
         alert("end of game");
     }
+}
+
+/**
+ * Changes the color in the progress div to green if the answer is correct
+ */
+function answerCorrect() {
+    document.getElementById(currentQuestion).style.backgroundColor = "black";
+}
+
+/**
+ * Changes the color in the progress div to red if the answer is wrong
+ */
+function answerWrong() {
+    document.getElementById(currentQuestion).style.backgroundColor = "red";
 }
