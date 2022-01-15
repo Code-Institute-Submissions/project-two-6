@@ -60,7 +60,7 @@ closeModal.onclick = function() {
 }
 
 /**
- * Called when start button is clicked, hides the home content of the page,
+ * Called when start button is clicked, hides the home content of the page and
  * takes user to game area
  */
 function startGame(){
@@ -68,6 +68,22 @@ function startGame(){
     homeBlock.style.display = 'none';
     let quizContainer = document.getElementById("quiz-container");
     quizContainer.style.display = 'block';
+    displayQuestion()
+    displayProgress()
+}
+
+/**
+ * Creates div elements dynamically depending on the number of questions
+ * learned and adopted the code from this post
+ * https://stackoverflow.com/questions/42010723/creating-div-element-with-a-for-loop
+ */
+
+function displayProgress() {
+    let progress = document.getElementById("progress");
+    for(let i = 0; i <= lastQuestion; i++) {
+        console.log("This is progress");
+        progress.innerHTML += '<div class="progress"></div>';
+    }
 }
 
 /**
@@ -88,8 +104,6 @@ function displayQuestion() {
     let optionC = document.getElementById("optionC");
     optionC.innerHTML = questions[currentQuestion].optionC;
 }
-
-displayQuestion()
 
 /**
  * Function to check user answer against the correct answer and
