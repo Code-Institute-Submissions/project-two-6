@@ -107,6 +107,7 @@ p{
     margin:auto;
     width: 90%;
     height: 80%;
+    background-color: hotpink;
 }
 
 /* quiz image */
@@ -129,6 +130,7 @@ p{
     background:#f0ede1;
     text-align: center;
     border-radius: 30px;
+    background-color: red;
 }
 
 .float {
@@ -155,7 +157,7 @@ p{
 
 /* alternative answers boxes */
 .answer-options {
-    height: 75%;
+    height: 50%; /*75%*/
 }
 
 .option {
@@ -174,6 +176,21 @@ p{
 
 .option:hover{
     background: #3b3c3d;
+}
+
+/*progress */
+
+#progress {
+    width: 60%;
+    height: 10%;
+    background-color: salmon;
+}
+.progress {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+    margin: 1em;
+    display: inline-block
 }
 
 .close-modal {
