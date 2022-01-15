@@ -66,6 +66,8 @@ The primary Project Goal is to create a simple car logos learning game that is s
 * GitHub:
   [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 
+* SweetAlert: [SweetAlert](https://sweetalert.js.org/) was used to add popup messages.
+
 ## Testing
 
   * The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors.
@@ -125,7 +127,9 @@ $ git clone https://github.com/ip69719/MS-Project-1-v-3.git - UPDATE THIS!
 
 * Learned how to display two divs side by side from [coder coder!](https://coder-coder.com/display-divs-side-by-side/).
 
-* Learned how to create a Modal Box with CSS and JavaScript and adopted code from [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
+* Learned how to create a Modal Box with CSS and JavaScript and adopted code from this [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
+
+* Learned how to create div elements with a for loop and adopted code from this [](https://stackoverflow.com/questions/42010723/creating-div-element-with-a-for-loop) post.
 
 ### Acknowledgements
 
