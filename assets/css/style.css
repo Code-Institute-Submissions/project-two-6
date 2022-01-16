@@ -173,6 +173,7 @@ p{
 #progress {
     width: 60%;
     height: 10%;
+    margin: auto;
 }
 .progress {
     height: 30px;
