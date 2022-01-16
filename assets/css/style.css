@@ -19,6 +19,10 @@ body{
     text-align: center;
   }
 
+.float {
+    float:left;
+}
+
 /* ------------------------------- Heading */
 #heading{
     height: 20vh;
@@ -64,34 +68,32 @@ p{
     background-size: cover;
 }
 
-.float {
-    float:left;
-}
-
-.buttons {
+.btn {
     width: 30%;
     color:#f0ede1;
-    font-size: 120%;
     border-radius: 5px;
     background:#ff5e00;
+    border: 3px solid #3b3c3d;
+    box-shadow: 0 0 5px 4px;
+    font-size: 120%;
     margin: auto;
     margin-top: 2%;
     padding: 5px;
-    border: 3px solid #3b3c3d;
-    box-shadow: 0 0 5px 4px;
 }
 
 /* --------------------------- Game layout */
-/*Learned and adopted some of the code from Coding Ninjas(https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/?amp=1) tutorial*/
+/*Learned and adopted some of the code from Coding Ninjas
+(https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/?amp=1) tutorial*/
 #quiz-container {
-    margin: auto;
-    margin-top: 5%;
     width: 70vw;
     height: 80vh;
     background: #095170;
     border: 5px solid #ff5e00;
     border-radius: 50px;
-    box-shadow: 0 0 5px 4px; 
+    box-shadow: 0 0 5px 4px;
+    background-color: indigo;
+    margin: auto;
+    margin-top: 5%;
 }
 
 /* header/question */
@@ -104,9 +106,9 @@ p{
 }
 
 .question-area{
+    height: 80%;
     margin:auto;
     width: 90%;
-    height: 80%;
     background-color: hotpink;
 }
 
@@ -133,10 +135,6 @@ p{
     background-color: red;
 }
 
-.float {
-    float:left;
-}
-
 /* score area */
 #score {
     height: 15%;
@@ -144,15 +142,12 @@ p{
     font-size: 120%;
 }
 
-#user-score{
-    color: #ff5e00;
-}
-
 /* instruction area */
 #instructions {
-    height: 15%;
-    padding-top: 5%;
+    height: 10%;
     font-size: 90%;
+    padding-top: 5%;
+    background-color: lightcyan;
 }
 
 /* alternative answers boxes */
@@ -189,7 +184,7 @@ p{
     height: 25px;
     width: 25px;
     background-color: green;
-    margin: 1em;
+    margin-left: 1em;
     display: inline-block
 }
 
@@ -242,4 +237,9 @@ ol {
 li {
     color: #f0ede1;
     padding-left: 10%;
+}
+
+
+.btn:hover{
+    background: #3b3c3d;
 }
