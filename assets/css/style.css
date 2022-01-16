@@ -182,52 +182,55 @@ p{
     display: inline-block
 }
 
-
-
-
-
-
+/*modal with instructions*/
 .close-modal {
+    border: none;
+    background: none;
+    color: #ff5e00;
+    cursor: pointer;
+    font-size: 4rem;
     position: absolute;
     top: 0.1rem;
     right: 2rem;
-    font-size: 4rem;
-    color: #ff5e00;
-    cursor: pointer;
-    border: none;
-    background: none;
-  }
+}
 
-  .modal-window {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+.modal-window {
     background-color:  #095170;
-    padding: 1rem;
     border: 5px solid #ff5e00;
     border-radius: 50px;
     box-shadow: 0 0 5px 4px;
-    z-index: 10;
     line-height: 2.5em;
     letter-spacing: 2px;
-  }
-
-  .overlay {
+    left: 50%;
+    padding: 1rem;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    z-index: 10;
+}
+
+.overlay {
     width: 100%;
     height: 100%;
     background-color:rgba(66, 65, 65, 0.6);
     backdrop-filter: blur(3px);
+    left: 0;
+    top: 0;
+    position: absolute;
     z-index: 5;
-  }
+}
 
 #modal-header {
     color:#ff5e00;
 }
+
+
+
+
+
+
+
 
 ol {
     list-style: none;
