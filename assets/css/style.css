@@ -145,7 +145,7 @@ p{
 
 /* alternative answers boxes */
 .answer-options {
-    height: 50%; /*75%*/
+    height: 60%;
 }
 
 .option {
@@ -156,7 +156,7 @@ p{
     color:#f0ede1;
     font-size: 120%;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 5%;
     padding: 5px;
     width: 60%;
     text-align: center;
@@ -166,7 +166,7 @@ p{
     background: #3b3c3d;
 }
 
-/*progress */
+/*progress div*/
 
 #progress {
     width: 60%;
@@ -174,12 +174,18 @@ p{
     background-color: salmon;
 }
 .progress {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     background-color: green;
     margin-left: 1em;
+    margin-right: 1em;
     display: inline-block
 }
+
+
+
+
+
 
 .close-modal {
     position: absolute;
