@@ -178,10 +178,11 @@ p{
 .progress {
     height: 30px;
     width: 30px;
-    border: 1px solid #3b3c3d;
+    background-color: #3b3c3d;
+    border-radius: 50%;
+    display: inline-block;
     margin-left: 1em;
     margin-right: 1em;
-    display: inline-block
 }
 
 /*modal with instructions*/
