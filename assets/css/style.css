@@ -135,13 +135,6 @@ p{
     background-color: red;
 }
 
-/* score area */
-#score {
-    height: 15%;
-    padding-top: 5%;
-    font-size: 120%;
-}
-
 /* instruction area */
 #instructions {
     height: 10%;
