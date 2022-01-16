@@ -165,3 +165,12 @@ function showResults() {
     resultsContainer.style.display = 'none';
     homeBlock.style.display = 'block';
 }
+
+ /**
+ * Resets score and restarts the game when restart button is clicked
+ */
+  btnRestart.onclick = function() {
+    resultsContainer.style.display = 'none';
+    currentQuestion = 0;
+    displayQuestion();
+}
