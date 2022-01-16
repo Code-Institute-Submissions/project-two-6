@@ -68,8 +68,8 @@ function startGame(){
     homeBlock.style.display = 'none';
     let quizContainer = document.getElementById("quiz-container");
     quizContainer.style.display = 'block';
-    displayQuestion()
-    displayProgress()
+    displayQuestion();
+    displayProgress();
 }
 
 /**
@@ -126,6 +126,7 @@ function checkAnswer(userAnswer){
         displayQuestion();
     } else {
         alert("end of game");
+        showResults();
     }
 }
 
@@ -141,4 +142,12 @@ function answerCorrect() {
  */
 function answerWrong() {
     document.getElementById(currentQuestion).style.backgroundColor = "red";
+}
+
+/**
+ * Displays results and provides options to restart or return to the main page
+ */
+function showResults() {
+    let resultsContainer = document.getElementById("results-container");
+    resultsContainer.style.display = 'block';
 }
