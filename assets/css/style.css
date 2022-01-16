@@ -96,7 +96,6 @@ p{
     border: 5px solid #ff5e00;
     border-radius: 50px;
     box-shadow: 0 0 5px 4px;
-    background-color: indigo;
     margin: auto;
     margin-top: 5%;
 }
@@ -114,7 +113,6 @@ p{
     height: 80%;
     margin:auto;
     width: 90%;
-    background-color: hotpink;
 }
 
 /* quiz image */
@@ -137,7 +135,6 @@ p{
     background:#f0ede1;
     text-align: center;
     border-radius: 30px;
-    background-color: red;
 }
 
 /* instruction area */
@@ -145,7 +142,6 @@ p{
     height: 10%;
     font-size: 90%;
     padding-top: 5%;
-    background-color: lightcyan;
 }
 
 /* alternative answers boxes */
@@ -177,12 +173,11 @@ p{
 #progress {
     width: 60%;
     height: 10%;
-    background-color: salmon;
 }
 .progress {
     height: 30px;
     width: 30px;
-    background-color: green;
+    border: 1px solid #3b3c3d;
     margin-left: 1em;
     margin-right: 1em;
     display: inline-block
