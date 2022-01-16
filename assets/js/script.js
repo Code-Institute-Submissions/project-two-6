@@ -151,3 +151,17 @@ function showResults() {
     let resultsContainer = document.getElementById("results-container");
     resultsContainer.style.display = 'block';
 }
+
+// move this up
+ let resultsContainer = document.getElementById("results-container");
+ let btnExit = document.getElementById("btn-exit");
+ let btnRestart = document.getElementById("btn-restart");
+ let homeBlock = document.getElementById("main-container");
+
+ /**
+ * Takes user to the main page if Exit button is clicked
+ */
+ btnExit.onclick = function() {
+    resultsContainer.style.display = 'none';
+    homeBlock.style.display = 'block';
+}
