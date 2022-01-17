@@ -59,6 +59,10 @@ let quizContainer = document.getElementById("quiz-container");
 // Get results block
 let resultsContainer = document.getElementById("results-container");
 
+//Get/display total number of questions in the quiz
+let  totalQuestions = document.getElementById("total-questions");
+totalQuestions.innerHTML = questions.length;
+
 /**
  * Opens the modal with game instructions when show instructions is clicked
  */
