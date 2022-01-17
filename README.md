@@ -1,7 +1,8 @@
 [Link to the live project](https://ip69719.github.io/MS2/) - UPDATE THIS
 
 # Welcome to my Car Logos learning game!
-The primary Project Goal is to create a simple car logos learning game that is suitable for young children.
+
+
 
 
 ## User Experience (UX)
@@ -11,17 +12,11 @@ The primary Project Goal is to create a simple car logos learning game that is s
 
 
 
+
 ### User Stories
 
-*   User stories
-    * First Time Visitor Goals
-        * 
 
-    * Returning Visitor Goals
-        * 
 
-    * Frequent User Goals
-        *
 
 
 ### Design choices
@@ -35,7 +30,7 @@ The primary Project Goal is to create a simple car logos learning game that is s
 
 ### Wireframes
 
-* [Home Page Wireframe ](https://github.com/ip69719/MS2/blob/main/wireframes/MS2%20Wireframe%20Desktop.pdf)
+* [Home Page Wireframe](https://github.com/ip69719/MS2/blob/main/wireframes/MS2%20Wireframe%20Desktop.pdf)
 * [Mobile Wireframe ](https://github.com/ip69719/MS2/blob/main/wireframes/MS2%20Wireframe%20Phone.pdf)
 * [Tablet Wireframe ](https://github.com/ip69719/MS2/blob/main/wireframes/MS2%20Wireframe%20Tablet.pdf)
 
@@ -46,6 +41,8 @@ The primary Project Goal is to create a simple car logos learning game that is s
 
 ### Features Left to Implement
   * Responsive design on all device sizes
+  * styling of sweetalerts modals for consistency of styling
+  * Currently the game questions are  hardcoded 
 
 
 
@@ -74,7 +71,6 @@ The primary Project Goal is to create a simple car logos learning game that is s
     * W3C Markup Validator - [Results](https://github.com/ip69719/MS2/blob/main/testing/W3C%20Markup%20Validator.pdf)
     * W3C CSS Validator - [Results](https://github.com/ip69719/MS2/blob/main/testing/W3C%20CSS%20Validator.pdf)
 
-  * Known Bugs
 
 
 ## Deployment
@@ -129,7 +125,11 @@ $ git clone https://github.com/ip69719/MS-Project-1-v-3.git - UPDATE THIS!
 
 * Learned how to create a Modal Box with CSS and JavaScript and adopted code from this [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
 
-* Learned how to create div elements with a for loop and adopted code from this [](https://stackoverflow.com/questions/42010723/creating-div-element-with-a-for-loop) post.
+* Learned how to create an overlay effect with CSS from this [W3Schools](https://www.w3schools.com/howto/howto_css_overlay.asp) tutorial.
+
+* Learned how to create div elements with a for loop and adopted code from this [Stack Overflow](https://stackoverflow.com/questions/42010723/creating-div-element-with-a-for-loop) post.
+
+* Learned how to remove all elements of a certain class from the DOM from this [Stack Overflow](https://stackoverflow.com/questions/10842471/how-to-remove-all-elements-of-a-certain-class-from-the-dom) post.*
 
 ### Acknowledgements
 
