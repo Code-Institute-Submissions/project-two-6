@@ -17,7 +17,7 @@ body{
 
 .text-center{
     text-align: center;
-  }
+}
 
 .float {
     float:left;
@@ -28,7 +28,7 @@ body{
     height: 20vh;
     font-size: 120%;
     width: 100%;
-  }
+}
 
 h1, p {
     color: #ff5e00;
