@@ -1,16 +1,16 @@
 [Link to the live project](https://ip69719.github.io/MS2/) - UPDATE THIS
 
 # Welcome to my Car Logos learning game!
-
+The project idea was inspired by a six years old boy who loves cars.
 
 
 
 ## User Experience (UX)
 
 ### Project Goals
+The primary Project Goal is to create a simple car logos learning game that is suitable for young children.
 
-
-
+The target audience are young children who are interested to learn car brand logos.
 
 
 ### User Stories
@@ -22,9 +22,13 @@
 ### Design choices
 
 * Colour Scheme
+  * The color scheme comprises of shade of blue, gray and cream. I find that these colours complement each other.
+  * The blue background works well for silver car logo images.
+  * Orange color adds an element of vibrancy and fun to the site.
 
 
 * Typography
+  * Chilanka font was chosen for its playful style.
 
 
 
