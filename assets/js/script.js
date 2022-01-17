@@ -130,12 +130,10 @@ function checkAnswer(userAnswer){
 
     if (userAnswer == questions[currentQuestion].correct) {
         alert("Good job! That is Correct Answer!");
-        //swal("Good job!", "That is Correct Answer!", "success");
         score++;
         answerCorrect();
     } else {
         alert("Oops! This is not correct :-(");
-        //swal("Oops!", "That is Incorrect :-( !", "error");
         answerWrong();
     }
     
