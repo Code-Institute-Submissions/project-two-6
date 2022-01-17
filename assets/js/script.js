@@ -34,6 +34,10 @@ let lastQuestion = questions.length - 1;
 let startButton = document.getElementById("start-button");
 startButton.addEventListener("click", startGame);
 
+//Get the restart button element and add event listener to it
+let btnRestart = document.getElementById("btn-restart");
+btnRestart.addEventListener("click", restartGame);
+
 //Get the show instructions element
 let openModal = document.getElementById("show-modal");
 
@@ -134,7 +138,6 @@ function checkAnswer(userAnswer){
         currentQuestion++;
         displayQuestion();
     } else {
-        //alert("end of game"); //REMOVE
         showResults();
     }
 }
@@ -157,14 +160,9 @@ function answerWrong() {
  * Displays results and provides options to restart the game or return to the main page
  */
 function showResults() {
+    quizContainer.style.display = 'none';
     resultsContainer.style.display = 'block';
-}// Score
-
-// move this up REVIEW!!!!!!!!!!!!!!!!!!!
- 
- 
- let btnRestart = document.getElementById("btn-restart");
-
+}
 
  /**
  * Takes user to the main page if Exit button is clicked
@@ -179,8 +177,11 @@ btnExit.onclick = function() {
  /**
  * Resets score and restarts the game when restart button is clicked
  */
-  btnRestart.onclick = function() {
-    resultsContainer.style.display = 'none';
+function restartGame() {
+    //reset current question index
     currentQuestion = 0;
-    displayQuestion();
+    //remove progress https://stackoverflow.com/questions/10842471/how-to-remove-all-elements-of-a-certain-class-from-the-dom
+    document.querySelectorAll('.progress').forEach(e => e.remove());
+    resultsContainer.style.display = 'none';
+    startGame();
 }
