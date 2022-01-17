@@ -187,6 +187,8 @@ btnExit.onclick = function() {
 function restartGame() {
     //reset current question index
     currentQuestion = 0;
+    //reset score
+    score = 0;
     //remove progress https://stackoverflow.com/questions/10842471/how-to-remove-all-elements-of-a-certain-class-from-the-dom
     document.querySelectorAll('.progress').forEach(e => e.remove());
     resultsContainer.style.display = 'none';
