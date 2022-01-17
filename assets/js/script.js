@@ -38,6 +38,11 @@ startButton.addEventListener("click", startGame);
 let btnRestart = document.getElementById("btn-restart");
 btnRestart.addEventListener("click", restartGame);
 
+//Get the exit button element and add event listener to it
+let btnExit = document.getElementById("btn-exit");
+btnExit.addEventListener("click", returnHome);
+
+
 //Get the show instructions element
 let openModal = document.getElementById("show-modal");
 
@@ -172,11 +177,17 @@ function showResults() {
  /**
  * Takes user to the main page if Exit button is clicked
  */
-let btnExit = document.getElementById("btn-exit");
-btnExit.onclick = function() {
+function returnHome() {
     resultsContainer.style.display = 'none';
     quizContainer.style.display = 'none';
     homeBlock.style.display = 'block';
+    //reset current question index
+    currentQuestion = 0;
+    //reset score
+    score = 0;
+    //remove progress https://stackoverflow.com/questions/10842471/how-to-remove-all-elements-of-a-certain-class-from-the-dom
+    document.querySelectorAll('.progress').forEach(e => e.remove());
+    resultsContainer.style.display = 'none';
 }
 
  /**
