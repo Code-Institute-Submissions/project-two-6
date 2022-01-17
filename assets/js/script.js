@@ -154,24 +154,25 @@ function answerWrong() {
 }
 
 /**
- * Displays results and provides options to restart or return to the main page
+ * Displays results and provides options to restart the game or return to the main page
  */
 function showResults() {
-    let resultsContainer = document.getElementById("results-container");
     resultsContainer.style.display = 'block';
-}
+}// Score
 
-// move this up
+// move this up REVIEW!!!!!!!!!!!!!!!!!!!
  
- let btnExit = document.getElementById("btn-exit");
+ 
  let btnRestart = document.getElementById("btn-restart");
 
 
  /**
  * Takes user to the main page if Exit button is clicked
  */
- btnExit.onclick = function() {
+let btnExit = document.getElementById("btn-exit");
+btnExit.onclick = function() {
     resultsContainer.style.display = 'none';
+    quizContainer.style.display = 'none';
     homeBlock.style.display = 'block';
 }
 
