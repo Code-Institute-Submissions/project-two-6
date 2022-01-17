@@ -167,6 +167,8 @@ function answerWrong() {
 function showResults() {
     quizContainer.style.display = 'none';
     resultsContainer.style.display = 'block';
+    let userScore = document.getElementById("user-score");
+    userScore.innerHTML = score;
 }
 
  /**
