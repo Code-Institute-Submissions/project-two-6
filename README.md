@@ -15,7 +15,13 @@ The target audience are young children who are interested to learn car brand log
 
 ### User Stories
 
-
+* As a young player aged between 6 - 8 years old, I want:
+* The ability to view a short introduction so I can understand what the game is about.
+* The ability to easily navigate throughout the site.
+* Any text to be clear and consise so I can easily read and follow the instructions. 
+* Feedback when I select an answer letting me know if I selected correct answer.
+* The ability to track my score after every answer.
+* Feedback at the end of the game so that I know what my overall score is.
 
 
 
