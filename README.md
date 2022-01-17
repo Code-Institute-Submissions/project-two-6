@@ -63,7 +63,7 @@
 * GitHub:
   [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 
-* SweetAlert: [SweetAlert](https://sweetalert.js.org/) was used to add popup messages.
+
 
 ## Testing
 
