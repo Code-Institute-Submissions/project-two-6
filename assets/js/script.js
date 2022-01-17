@@ -24,6 +24,9 @@ let questions = [{
 //to keep track of current question
 let currentQuestion = 0;
 
+//to keep track of the score
+let score = 0;
+
 //to calculate total number of questions
 let lastQuestion = questions.length - 1;
 
@@ -42,6 +45,15 @@ let modalWindow = document.getElementById("modal");
 
 //Get the overlay
 let overlay = document.getElementById("overlay");
+
+//Get the home block
+let homeBlock = document.getElementById("main-container");
+
+//Get quiz block
+let quizContainer = document.getElementById("quiz-container");
+
+// Get results block
+let resultsContainer = document.getElementById("results-container");
 
 /**
  * Opens the modal with game instructions when show instructions is clicked
@@ -64,12 +76,10 @@ closeModal.onclick = function() {
  * takes user to game area
  */
 function startGame(){
-    let homeBlock = document.getElementById("main-container");
     homeBlock.style.display = 'none';
-    let quizContainer = document.getElementById("quiz-container");
     quizContainer.style.display = 'block';
-    displayQuestion();
     displayProgress();
+    displayQuestion();
 }
 
 /**
@@ -80,13 +90,12 @@ function startGame(){
 function displayProgress() {
     let progress = document.getElementById("progress");
     for(let i = 0; i <= lastQuestion; i++) {
-        console.log("This is progress");
         progress.innerHTML += '<div class="progress" id='+ i +'></div>';
     }
 }
 
 /**
- * Function to render question, called after user is taken to game area
+ * Function to render question, called when user is taken to game area
  */
 function displayQuestion() {
     //display logo image
@@ -112,12 +121,12 @@ function displayQuestion() {
 function checkAnswer(userAnswer){
 
     if (userAnswer == questions[currentQuestion].correct) {
-        //alert("That is Correct Answer! Well Done!");
-        swal("Good job!", "That is Correct Answer!", "success");
+        alert("Good job! That is Correct Answer!");
+        //swal("Good job!", "That is Correct Answer!", "success");
         answerCorrect();
     } else {
-        //alert("This is Incorrect :-( !" );
-        swal("Oops!", "That is Incorrect :-( !", "error");
+        alert("Oops! This is not correct :-(");
+        //swal("Oops!", "That is Incorrect :-( !", "error");
         answerWrong();
     }
     
@@ -125,7 +134,7 @@ function checkAnswer(userAnswer){
         currentQuestion++;
         displayQuestion();
     } else {
-        alert("end of game");
+        //alert("end of game"); //REMOVE
         showResults();
     }
 }
@@ -134,7 +143,7 @@ function checkAnswer(userAnswer){
  * Changes the color in the progress div to green if the answer is correct
  */
 function answerCorrect() {
-    document.getElementById(currentQuestion).style.backgroundColor = "black";
+    document.getElementById(currentQuestion).style.backgroundColor = "green";
 }
 
 /**
@@ -153,10 +162,10 @@ function showResults() {
 }
 
 // move this up
- let resultsContainer = document.getElementById("results-container");
+ 
  let btnExit = document.getElementById("btn-exit");
  let btnRestart = document.getElementById("btn-restart");
- let homeBlock = document.getElementById("main-container");
+
 
  /**
  * Takes user to the main page if Exit button is clicked
