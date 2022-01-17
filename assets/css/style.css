@@ -238,3 +238,15 @@ li {
     color: #f0ede1;
     padding-left: 10%;
 }
+
+/* ----------------------- -Results layout */
+#score {
+    height: 15%;
+    padding-top: 5%;
+    font-size: 200%;
+    color:#ff5e00;
+}
+
+#user-score, #total-questions {
+    color: green;
+}
