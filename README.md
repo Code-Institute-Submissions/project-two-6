@@ -67,9 +67,12 @@ The target audience are young children who are interested to learn car brand log
 
 ### Frameworks, Libraries & Programs Used
 
+* Google fonts:
+  [Google fonts](https://fonts.google.com/) were used to import the 'Chilanka' font into the style.css file which is used on all pages throughout the project.
+* Balsamiq Wireframes:
+  [Balsamiq Wireframes](https://balsamiq.com/) was used to create wireframes for the project.
 * Git:
   [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-
 * GitHub:
   [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 
