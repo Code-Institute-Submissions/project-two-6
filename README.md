@@ -40,10 +40,11 @@ The target audience are young children who are interested to learn car brand log
 
 ### Wireframes
 
-* [Desktop Wireframe](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_desktop.pdf)
-* [Mobile Wireframe ](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_phone.pdf)
-* [Tablet Wireframe ](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_tablet.pdf)
 * The final website differs from the original wireframes because I found more appropriate ways to display sections during the development.
+  * [Desktop Wireframe](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_desktop.pdf)
+  * [Mobile Wireframe ](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_phone.pdf)
+  * [Tablet Wireframe ](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_tablet.pdf)
+
 
 ## Features
 
