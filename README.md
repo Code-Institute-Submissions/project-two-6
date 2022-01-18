@@ -40,9 +40,10 @@ The target audience are young children who are interested to learn car brand log
 
 ### Wireframes
 
-* [Home Page Wireframe](https://github.com/ip69719/MS2/blob/main/wireframes/MS2%20Wireframe%20Desktop.pdf)
-* [Mobile Wireframe ](https://github.com/ip69719/MS2/blob/main/wireframes/MS2%20Wireframe%20Phone.pdf)
-* [Tablet Wireframe ](https://github.com/ip69719/MS2/blob/main/wireframes/MS2%20Wireframe%20Tablet.pdf)
+* [Desktop Wireframe](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_desktop.pdf)
+* [Mobile Wireframe ](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_phone.pdf)
+* [Tablet Wireframe ](https://github.com/ip69719/project-two/blob/main/assets/documents/wireframes/ms2_wireframe_tablet.pdf)
+* The final website differs from the original wireframes because I found more appropriate ways to display sections during the development.
 
 ## Features
 
@@ -51,7 +52,8 @@ The target audience are young children who are interested to learn car brand log
 
 ### Features Left to Implement
   * Responsive design on all device sizes
-  * Currently the game questions are hardcoded. This is not ideal and other solutions will be considered in future releaseas.
+  * Currently the game questions are hardcoded. This is not ideal and other solutions will be considered in future releases.
+  * Replace JavaScript alerts with modal pop ups.
 
 
 
