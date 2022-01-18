@@ -1,4 +1,4 @@
-[Link to the live project](https://ip69719.github.io/MS2/) - UPDATE THIS
+[Link to the live project](https://ip69719.github.io/project-two/)
 
 # Welcome to my Car Logos learning game!
 The project idea was inspired by a six years old boy who loves cars.
@@ -165,7 +165,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 1. Open Git Bash
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/ip69719/MS-Project-1-v-3.git - UPDATE THIS!
+$ git clone https://github.com/ip69719/project-two.git
 1. Press Enter. Your local clone will be created.
 
 ## Credits
