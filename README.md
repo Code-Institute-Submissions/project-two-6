@@ -115,22 +115,22 @@ The target audience are young children who are interested to learn car brand log
 
   * **As a young player aged between 6 - 8 years old, I want any text to be clear and consise so I can easily read and follow the instructions.**
   The text in every section of the page is short and simple making it easy for the User to understand and make choices. Large font-size and letter-spacing CSS properties were applied to make the text easier to read. 
-  [test_evidence_1](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_1.JPG)
-  [test_evidence_2](assets/documents/testing/test_evidence_2.png)
-  ![](assets/documents/testing/test_evidence_3.png)
+  [test_evidence_1](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_1.JPG), 
+  [test_evidence_2](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_2.JPG),
+  [test_evidence_3](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_3.JPG)
 
   * **As a young player aged between 6 - 8 years old, I want feedback when I select an answer letting me know if I selected correct answer.**
   The User is presented with a pop up message as soon as an answer is selected providing the User with an instant feedback.
-  ![](assets/documents/testing/test_evidence_5.png)
-  ![](assets/documents/testing/test_evidence_6.png)
+  [test_evidence_5](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_5.JPG),
+  [test_evidence_6](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_6.JPG)
 
   * **As a young player aged between 6 - 8 years old, I want the ability to track my score after every answer.**
   There is a gray circle for every question of the quiz just under the answer alternatives in the game area. The progress is tracked by filling in the circles with either green or red colour when User answer is obtained.
-  ![](assets/documents/testing/test_evidence_4.png)
+  [test_evidence_4](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_4.JPG)
 
   * **As a young player aged between 6 - 8 years old, I want feedback at the end of the game so that I know what my overall score is.**
   The user is presented with an overall game results as soon as the last question is answered.
-  ![](assets/documents/testing/test_evidence_2.png)
+  [test_evidence_2](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/test_evidence_2.JPG)
 
 
 
