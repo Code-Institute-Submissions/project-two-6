@@ -1,6 +1,6 @@
 [Link to the live project](https://ip69719.github.io/project-two/)
 
-# Welcome to my Car Logos learning game!
+# Welcome to Gabriel's Car Logos learning game!
 The project idea was inspired by a six years old boy who loves cars.
 
 
