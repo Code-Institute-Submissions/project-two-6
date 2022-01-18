@@ -51,8 +51,7 @@ The target audience are young children who are interested to learn car brand log
 
 ### Features Left to Implement
   * Responsive design on all device sizes
-  * styling of sweetalerts modals for consistency of styling
-  * Currently the game questions are  hardcoded 
+  * Currently the game questions are hardcoded. This is not ideal and other solutions will be considered in future releaseas.
 
 
 
