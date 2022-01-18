@@ -115,7 +115,7 @@ The target audience are young children who are interested to learn car brand log
 
   * **As a young player aged between 6 - 8 years old, I want any text to be clear and consise so I can easily read and follow the instructions.**
   The text in every section of the page is short and simple making it easy for the User to understand and make choices. Large font-size and letter-spacing CSS properties were applied to make the text easier to read. 
-  ![](assets/documents/testing/test_evidence_1.png)
+  [Test 1](project-two/assets/documents/testing/test_evidence_1.JPG)
   ![](assets/documents/testing/test_evidence_2.png)
   ![](assets/documents/testing/test_evidence_3.png)
 
