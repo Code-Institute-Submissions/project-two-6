@@ -250,3 +250,54 @@ li {
 #user-score, #total-questions {
     color: green;
 }
+
+
+/* --------------------------Media Queries */
+
+/*----------- mobile screens */
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    #quiz-container {
+        width: 90vw;
+        height: 100vh;
+    }
+    
+    /* header/question */
+    .header{
+        font-size: 110%;
+    }
+    
+    .question-area{
+        height: 90%;
+    }
+    
+    /* quiz image */
+    #question-img{
+        width: 100%;
+        height: 40%;
+        float: none;
+    }
+    
+    /* answer box */
+    .answer{
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+    
+    /* alternative answers boxes */
+    .answer-options {
+        height: 50%;
+    }
+    
+    .option {
+        font-size: 110%;
+    }
+    .progress {
+        height: 25px;
+        width: 25px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 10%;
+    }
+}
