@@ -81,6 +81,25 @@ The target audience are young children who are interested to learn car brand log
     * W3C Markup Validator - [Results](https://github.com/ip69719/MS2/blob/main/testing/W3C%20Markup%20Validator.pdf)
     * W3C CSS Validator - [Results](https://github.com/ip69719/MS2/blob/main/testing/W3C%20CSS%20Validator.pdf)
 
+  * Validated that the modal with the game instructions opens when "Show Instructions" button is clicked.
+  * Validated that the modal with the game instructions closes when "X" (close) button is clicked.
+  * Validated that the User is taken to the game area when "Start" button is clicked.
+  * Validated that the User is presented with the "Good job!..." (Answer correct) pop up message when the correct answer is selected.
+  * Validated that the User is presented with the "Opps!!..." (Answer incorrect) pop up message when an incorrect answer is selected.
+  * Validated that the progress is updated when an answer is selected:
+      * The color changes from gray to green if the correct answer is selected.
+      * The color changes from gray to red if an incorrect answer is selected.
+  * Validated that the User score is correctly tracked.
+  * Validated that the User score is correctly displayed in results section.
+  * Validated that when "Replay" button is clicked:
+      * The User is returned to the game area
+      * The score is reset
+      * The progress is reset.
+  * Validated that User is taken back to the landing page when "Quit" button is clicked.
+  * Validated that when "Start" button is clicked after the User returned from the results area:
+      * The score is reset
+      * The progress is reset.
+
 
 
 ## Deployment
