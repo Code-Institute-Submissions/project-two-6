@@ -79,9 +79,10 @@ The target audience are young children who are interested to learn car brand log
 
 ## Testing
 
-  * The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors.
-    * W3C Markup Validator - [Results](https://github.com/ip69719/MS2/blob/main/testing/W3C%20Markup%20Validator.pdf)
-    * W3C CSS Validator - [Results](https://github.com/ip69719/MS2/blob/main/testing/W3C%20CSS%20Validator.pdf)
+  * The W3C Markup Validator, W3C CSS Validator Services and JShint were used to validate the project to ensure there were no syntax errors.
+    * W3C Markup Validator - [Results](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/w3c_markup_validation_results.pdf)
+    * W3C CSS Validator - [Results](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/w3c_css_validation_results.pdf)
+    * JShint - [Results](https://github.com/ip69719/project-two/blob/main/assets/documents/testing/jshint_js_validation_results.pdf)
 
   * Validated that the modal with the game instructions opens when "Show Instructions" button is clicked.
   * Validated that the modal with the game instructions closes when "X" (close) button is clicked.
