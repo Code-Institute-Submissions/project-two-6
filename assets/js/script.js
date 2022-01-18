@@ -74,7 +74,7 @@ totalQuestions.innerHTML = questions.length;
 openModal.onclick = function() {
     overlay.style.display = 'block';
     modalWindow.style.display = 'block';
-}
+};
 
 /**
  * Closes the modal with game instructions when x is clicked
@@ -82,7 +82,7 @@ openModal.onclick = function() {
 closeModal.onclick = function() {
     modalWindow.style.display = 'none';
     overlay.style.display = 'none';
-}
+};
 
 /**
  * Called when start button is clicked, hides the home content of the page and
